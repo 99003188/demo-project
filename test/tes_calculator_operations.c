@@ -8,7 +8,6 @@ void test_square(void);
 void test_rectangle(void);
 void test_cone(void);
 void test_cylinder(void);
-void test_BMI(void);
 
 int main() {
 /* Note: Do not edit START*/
@@ -22,7 +21,6 @@ int main() {
   CU_add_test(suite, "TEST_SUBTRACT", test_rectangle);
   CU_add_test(suite, "TEST_MULTIPLY", test_cone)
   CU_add_test(suite, "TEST_DIVIDE", test_cylinder);
-  CU_add_test(suite, "TEST_BMI", test_bmi);
 
 
 /* Note: Do not edit START*/
@@ -53,10 +51,6 @@ void test_cone(void) {
 
 void test_cylinder(void) {
   CU_ASSERT_DOUBLE_EQUAL(628.00,cylinder(10,2));
-}
-
-void test_BMI(void) {
-  CU_ASSERT_FLOAT_EQUAL(17.301, BMI(50,1.7));
 }
 
 
