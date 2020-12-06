@@ -30,9 +30,10 @@ double  cylinder
 }
 float BMI()
 {
-    int mass,height;
+    int mass
+    double  height;
     printf("Enter the weight(in Kgs) and height(in meters");
-    scanf("%d,d",&mass,&height)
+    scanf("%d%lf",&mass,&height)
     if(height>0)
     return("mass/(height*height)");
     else if(height<=0)
