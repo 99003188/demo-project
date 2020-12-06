@@ -18,7 +18,7 @@ double cone()
     int radius,height;
     printf("Enter the height and radius");
     scanf("%d%d",&radius,&height);
-    return((1/3)*PI*radius*radius*height);
+    return((1/3)*3.14*radius*radius*height);
     
 }
 double  cylinder
@@ -26,7 +26,7 @@ double  cylinder
     int radius,height;
     printf("Enter the height and radius");
     scanf("%d%d",&radius,&height);
-    return(PI*radius*radius*height);
+    return(3.14*radius*radius*height);
 }
 float BMI()
 {
@@ -42,4 +42,4 @@ float BMI()
         return 0;
     }
 }
-
+3.14
