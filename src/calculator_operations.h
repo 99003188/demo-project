@@ -37,6 +37,6 @@ float BMI()
     if(height>0)
     return("mass/(height*height)");
     else if(height<=0)
-        printf("enter correct details");
+    printf("enter correct details");
 }
 
